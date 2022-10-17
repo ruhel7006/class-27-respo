@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=DynaPuff:wght@400;500&family=Pacifico&family=Roboto+Slab:wght@100;200;400&family=Roboto:ital,wght@0,700;1,900&family=Tiro+Devanagari+Hindi&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tiro Devanagari Hindi', serif;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+.header-two {
+    height: 50px;
+    background: #22c3a3;
+}
+.header-three {
+    float: left;
+    margin-left: 40px;
+    color: white;
+    padding: 11px 0;
+}
+.menu-div {
+    float: right;
+    margin-right: 40px;
+}
+.menu-div ul {
+    list-style: none;
+}
+.menu-div ul li {
+    display: inline-block;
+}
+.menu-div ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px 10px;
+    display: block;
+    line-height: 18px;
+    transition: 0.5s;
+}
+.menu-div ul li a:hover{
+    color: black;
+}
+
+
+/* CONTAIN IMGE DIVE STAR */
+
+.contain-img{
+    background-image: url(./img/header-bg01.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 240px  0;
+}
+.contain-riting{
+    margin-left: 371px;
+}
+.contain-riting .humm {
+   
+    color: white;
+    font-size: 60px;
+  
+}
+.contain-riting .jkl{
+    color: #ddd;
+   
+    font-size: 22px;
+    margin-left: 81px;
+}
+.contain-riting .mango {
+    margin-left: 227px;
+    margin-top: 40px;
+    padding: 13px 30px;
+    font-size: 18px;
+    
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    transition: 0.5s;
+}
+.mango:hover{
+    background-color: #ea1539;
+
+}
+
+
+/* CONTAIN IMGE DIVE end.......*/
+
+/* icone menu div css style star */
+.icone-div{ 
+   background-color: white;
+}
+.pop {
+    text-align: center;
+    padding-top: 80px;
+}
+p.six{
+    margin-top: 30px;
+    color: rgb(115, 113, 113);
+}
+/* nested div */
+.apple{
+    font-family: 'FONT AWESOME 6 PRO';
+    font-size: 60px;
+    margin-bottom: 40px;
+    color: #0dbf9b;
+}
+.lol{
+    color: rgb(115, 113, 113);
+}
+/* nested div */
+.icon-one {
+    height: auto;
+    width: 250px;
+    padding: 30px 0;
+    text-align: center;
+    margin-top: 180px;
+    float: left;
+    margin-left: 3%;
+}
+
+.icon-two {
+    height: auto;
+    width: 250px;
+    padding: 30px 0;
+    text-align: center;
+    float: left;
+    margin-top: 180px;
+    margin-left: 6%;
+}
+
+
+.icon-three {
+    height: auto;
+    width: 250px;
+    padding: 30px 0;
+    text-align: center;
+    float: left;
+    margin-top: 180px;
+    margin-left: 6%;
+}
+
+
+.icon-four {
+    height: auto;
+    width: 250px;
+    padding: 30px 0;
+    text-align: center;
+    float: left;
+    margin-top: 180px;
+    margin-left: 6%;
+}
+/* icone menu div css style end */
+
+/* hr project */
+.hgh{
+    height: 2px;
+    background-color: #0dbf9b;
+    margin-top: 200px;
+}
+/* hr project */
+
+
+/*about aitem css star */
+.vbv{
+    color: rgb(115, 113, 113);
+}
+.item-fast.clearfix {
+    background:white;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.item-one {
+    margin-top: 60px;
+}
+p.text-center.pt-2 {
+    color: rgb(115, 113, 113);
+}
+.img-div {
+    float: left;
+}
+img {
+    height: 350px;
+    width: auto;
+    margin-left: 8%;
+}
+section.happy-1 {
+    float: left;
+    text-align: left;
+    width: 620px;
+    height: auto;
+    margin-left: 7%;
+}
+section.happy-2 {
+    float: left;
+    text-align: left;
+    width: 620px;
+    height: auto;
+    margin-left: 7%;
+}
+section.happy-3 {
+    float: left;
+    text-align: left;
+    width: 620px;
+    height: auto;
+    margin-left: 7%;
+}
+/*about aitem css end */
+
+
+
+/* fotter menu contact css star */
+section.fotter-con.clearfix {
+    background: #f6f6f6;
+}
+section.fotter-contact {
+    padding-top: 80px;
+}
+section.fotter-one {
+    width: 180px;
+    text-align: center;
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    color: rgb(115, 113, 113);
+}
+section.fotter-two {
+    width: 180px;
+    text-align: center;
+    float: left;
+    margin-left: 22%;
+    margin-top: 10%;
+    color: rgb(115, 113, 113);
+}
+section.fotter-three {
+    width: 180px;
+    text-align: center;
+    float: left;
+    margin-left: 22%;
+    margin-top: 10%;
+    color: rgb(115, 113, 113);
+}
+
+/* icon css color dising */
+.bangla{
+    font-size: 20px;
+    margin-bottom: 12px;
+    color:#0dbf9b;
+}
+/* fotter menu contact css end */
+
+
+
+/* <!-- fotter icone div star --> */
+
+.icon-ooo {
+    color: white;
+    background-color: #0dbf9b;
+    height: 50px;
+    padding: 13px 0;
+    font-size: 22px;
+}
+.ami {
+    padding: 0 20px;
+    transition: 0.5s;
+}
+
+.ami:hover {
+    color: #ea1539;
+}
+/* <!-- fotter icone div end --> */
+
+
+.lfwf{
+    height: 50px;
+    padding: 20px;
+    color: #808080;
+    background-color:#222222;
+}
